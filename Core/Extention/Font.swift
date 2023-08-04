@@ -11,8 +11,8 @@ public extension UIFont {
 
     // load framework font in application
     static let loadAllFonts: () = {
-        registerFont(withFilenameString: "SF-Pro-Display-Bold.otf", bundle: ConfigBundle.core)
-        registerFont(withFilenameString: "SF-Pro-Display-Regular.otf", bundle: ConfigBundle.core)
+        registerFont(withFilenameString: "Maledpan-Bold.otf", bundle: ConfigBundle.core)
+        registerFont(withFilenameString: "Maledpan-Regular.otf", bundle: ConfigBundle.core)
         registerFont(withFilenameString: "Font Awesome 6 Brands-Regular-400.otf", bundle: ConfigBundle.core)
         registerFont(withFilenameString: "Font Awesome 6 Pro-Light-300.otf", bundle: ConfigBundle.core)
         registerFont(withFilenameString: "Font Awesome 6 Pro-Regular-400.otf", bundle: ConfigBundle.core)
@@ -60,8 +60,8 @@ public extension UIFont {
     }
 
     enum Fonts: String, CaseIterable {
-        case bold = "SFProDisplay-Bold"
-        case regular = "SFProDisplay-Regular"
+        case bold = "Maledpan-Bold"
+        case regular = "Maledpan-Regular"
     }
 
     enum FontSize {

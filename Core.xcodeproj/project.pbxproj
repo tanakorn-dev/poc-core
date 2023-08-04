@@ -12,8 +12,6 @@
 		B71F9A7629C0758A00FC94BC /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = B71F9A7529C0758A00FC94BC /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71F9ACB29C075F800FC94BC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9AB229C075F800FC94BC /* Font.swift */; };
 		B71F9ACC29C075F800FC94BC /* ConfigBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9AB429C075F800FC94BC /* ConfigBundle.swift */; };
-		B71F9AD929C075F800FC94BC /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9AC929C075F800FC94BC /* SF-Pro-Display-Regular.otf */; };
-		B71F9ADA29C075F800FC94BC /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9ACA29C075F800FC94BC /* SF-Pro-Display-Bold.otf */; };
 		B71F9AF229C0818200FC94BC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9AF129C0818200FC94BC /* NavigationBar.swift */; };
 		B79BFBAD2A7D145B0043F23F /* FontAwesomeIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BFB9F2A7D145B0043F23F /* FontAwesomeIconType.swift */; };
 		B79BFBAE2A7D145B0043F23F /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BFBA02A7D145B0043F23F /* IconFont.swift */; };
@@ -25,6 +23,8 @@
 		B79BFBB42A7D145B0043F23F /* Font Awesome 6 Pro-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = B79BFBA82A7D145B0043F23F /* Font Awesome 6 Pro-Regular-400.otf */; };
 		B79BFBB52A7D145B0043F23F /* Font Awesome 6 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = B79BFBA92A7D145B0043F23F /* Font Awesome 6 Brands-Regular-400.otf */; };
 		B79BFBB62A7D145B0043F23F /* Font Awesome 6 Pro-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = B79BFBAA2A7D145B0043F23F /* Font Awesome 6 Pro-Solid-900.otf */; };
+		B79BFBB92A7D150C0043F23F /* Maledpan-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B79BFBB72A7D150C0043F23F /* Maledpan-Regular.otf */; };
+		B79BFBBA2A7D150C0043F23F /* Maledpan-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B79BFBB82A7D150C0043F23F /* Maledpan-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +34,6 @@
 		B71F9A7529C0758A00FC94BC /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		B71F9AB229C075F800FC94BC /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		B71F9AB429C075F800FC94BC /* ConfigBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigBundle.swift; sourceTree = "<group>"; };
-		B71F9AC929C075F800FC94BC /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
-		B71F9ACA29C075F800FC94BC /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
 		B71F9AF129C0818200FC94BC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		B79BFB9F2A7D145B0043F23F /* FontAwesomeIconType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeIconType.swift; sourceTree = "<group>"; };
 		B79BFBA02A7D145B0043F23F /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		B79BFBA82A7D145B0043F23F /* Font Awesome 6 Pro-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Pro-Regular-400.otf"; sourceTree = "<group>"; };
 		B79BFBA92A7D145B0043F23F /* Font Awesome 6 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Brands-Regular-400.otf"; sourceTree = "<group>"; };
 		B79BFBAA2A7D145B0043F23F /* Font Awesome 6 Pro-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Pro-Solid-900.otf"; sourceTree = "<group>"; };
+		B79BFBB72A7D150C0043F23F /* Maledpan-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maledpan-Regular.otf"; sourceTree = "<group>"; };
+		B79BFBB82A7D150C0043F23F /* Maledpan-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maledpan-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 		B71F9AC829C075F800FC94BC /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				B71F9AC929C075F800FC94BC /* SF-Pro-Display-Regular.otf */,
-				B71F9ACA29C075F800FC94BC /* SF-Pro-Display-Bold.otf */,
+				B79BFBB82A7D150C0043F23F /* Maledpan-Bold.otf */,
+				B79BFBB72A7D150C0043F23F /* Maledpan-Regular.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -251,14 +251,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B79BFBB52A7D145B0043F23F /* Font Awesome 6 Brands-Regular-400.otf in Resources */,
+				B79BFBBA2A7D150C0043F23F /* Maledpan-Bold.otf in Resources */,
 				B79BFBB22A7D145B0043F23F /* Font Awesome 6 Sharp-Solid-900.otf in Resources */,
 				B79BFBB42A7D145B0043F23F /* Font Awesome 6 Pro-Regular-400.otf in Resources */,
 				B70E4E9129C443D3002E5FE7 /* Images.xcassets in Resources */,
+				B79BFBB92A7D150C0043F23F /* Maledpan-Regular.otf in Resources */,
 				B79BFBB62A7D145B0043F23F /* Font Awesome 6 Pro-Solid-900.otf in Resources */,
 				B79BFBB32A7D145B0043F23F /* Font Awesome 6 Pro-Thin-100.otf in Resources */,
-				B71F9ADA29C075F800FC94BC /* SF-Pro-Display-Bold.otf in Resources */,
 				B79BFBB12A7D145B0043F23F /* Font Awesome 6 Pro-Light-300.otf in Resources */,
-				B71F9AD929C075F800FC94BC /* SF-Pro-Display-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -391,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -415,6 +415,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,6 +443,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
