@@ -13,6 +13,16 @@
 		B71F9ACB29C075F800FC94BC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9AB229C075F800FC94BC /* Font.swift */; };
 		B71F9ACC29C075F800FC94BC /* ConfigBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9AB429C075F800FC94BC /* ConfigBundle.swift */; };
 		B71F9AF229C0818200FC94BC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9AF129C0818200FC94BC /* NavigationBar.swift */; };
+		B7616C3B2A84DB21005024E7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B7616C3A2A84DB21005024E7 /* Kingfisher */; };
+		B7616C3E2A84DBDC005024E7 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = B7616C3D2A84DBDC005024E7 /* PanModal */; };
+		B7616C412A84DC6C005024E7 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = B7616C402A84DC6C005024E7 /* SwiftDate */; };
+		B7616C432A84DDA8005024E7 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7616C422A84DDA8005024E7 /* Label.swift */; };
+		B7616C452A84DF24005024E7 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7616C442A84DF24005024E7 /* Color.swift */; };
+		B7616C482A84EA9C005024E7 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = B7616C472A84EA9C005024E7 /* SwiftyJSON */; };
+		B7616C622A85B641005024E7 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B7616C612A85B641005024E7 /* CombineMoya */; };
+		B7616C642A85B641005024E7 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = B7616C632A85B641005024E7 /* Moya */; };
+		B7616C662A85B641005024E7 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B7616C652A85B641005024E7 /* ReactiveMoya */; };
+		B7616C682A85B641005024E7 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = B7616C672A85B641005024E7 /* RxMoya */; };
 		B79BFBAD2A7D145B0043F23F /* FontAwesomeIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BFB9F2A7D145B0043F23F /* FontAwesomeIconType.swift */; };
 		B79BFBAE2A7D145B0043F23F /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BFBA02A7D145B0043F23F /* IconFont.swift */; };
 		B79BFBAF2A7D145B0043F23F /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79BFBA12A7D145B0043F23F /* FontType.swift */; };
@@ -35,6 +45,8 @@
 		B71F9AB229C075F800FC94BC /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		B71F9AB429C075F800FC94BC /* ConfigBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigBundle.swift; sourceTree = "<group>"; };
 		B71F9AF129C0818200FC94BC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		B7616C422A84DDA8005024E7 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		B7616C442A84DF24005024E7 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		B79BFB9F2A7D145B0043F23F /* FontAwesomeIconType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeIconType.swift; sourceTree = "<group>"; };
 		B79BFBA02A7D145B0043F23F /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
 		B79BFBA12A7D145B0043F23F /* FontType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
@@ -54,6 +66,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7616C662A85B641005024E7 /* ReactiveMoya in Frameworks */,
+				B7616C3E2A84DBDC005024E7 /* PanModal in Frameworks */,
+				B7616C3B2A84DB21005024E7 /* Kingfisher in Frameworks */,
+				B7616C642A85B641005024E7 /* Moya in Frameworks */,
+				B7616C482A84EA9C005024E7 /* SwiftyJSON in Frameworks */,
+				B7616C622A85B641005024E7 /* CombineMoya in Frameworks */,
+				B7616C682A85B641005024E7 /* RxMoya in Frameworks */,
+				B7616C412A84DC6C005024E7 /* SwiftDate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +114,8 @@
 				B71F9AB229C075F800FC94BC /* Font.swift */,
 				B71F9AF129C0818200FC94BC /* NavigationBar.swift */,
 				B70E4E9229C443FF002E5FE7 /* Image.swift */,
+				B7616C422A84DDA8005024E7 /* Label.swift */,
+				B7616C442A84DF24005024E7 /* Color.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -209,6 +231,16 @@
 			dependencies = (
 			);
 			name = Core;
+			packageProductDependencies = (
+				B7616C3A2A84DB21005024E7 /* Kingfisher */,
+				B7616C3D2A84DBDC005024E7 /* PanModal */,
+				B7616C402A84DC6C005024E7 /* SwiftDate */,
+				B7616C472A84EA9C005024E7 /* SwiftyJSON */,
+				B7616C612A85B641005024E7 /* CombineMoya */,
+				B7616C632A85B641005024E7 /* Moya */,
+				B7616C652A85B641005024E7 /* ReactiveMoya */,
+				B7616C672A85B641005024E7 /* RxMoya */,
+			);
 			productName = Core;
 			productReference = B71F9A7229C0758A00FC94BC /* Core.framework */;
 			productType = "com.apple.product-type.framework";
@@ -236,6 +268,13 @@
 				Base,
 			);
 			mainGroup = B71F9A6829C0758A00FC94BC;
+			packageReferences = (
+				B7616C392A84DB21005024E7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B7616C3C2A84DBDC005024E7 /* XCRemoteSwiftPackageReference "PanModal" */,
+				B7616C3F2A84DC6C005024E7 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				B7616C462A84EA9C005024E7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				B7616C602A85B641005024E7 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = B71F9A7329C0758A00FC94BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -272,8 +311,10 @@
 				B70E4E9329C443FF002E5FE7 /* Image.swift in Sources */,
 				B79BFBAF2A7D145B0043F23F /* FontType.swift in Sources */,
 				B79BFBB02A7D145B0043F23F /* FontAwesomeBrandsType.swift in Sources */,
+				B7616C452A84DF24005024E7 /* Color.swift in Sources */,
 				B79BFBAE2A7D145B0043F23F /* IconFont.swift in Sources */,
 				B71F9ACB29C075F800FC94BC /* Font.swift in Sources */,
+				B7616C432A84DDA8005024E7 /* Label.swift in Sources */,
 				B71F9ACC29C075F800FC94BC /* ConfigBundle.swift in Sources */,
 				B79BFBAD2A7D145B0043F23F /* FontAwesomeIconType.swift in Sources */,
 				B71F9AF229C0818200FC94BC /* NavigationBar.swift in Sources */,
@@ -489,6 +530,92 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B7616C392A84DB21005024E7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		B7616C3C2A84DBDC005024E7 /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/slackhq/PanModal.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B7616C3F2A84DC6C005024E7 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		B7616C462A84EA9C005024E7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		B7616C602A85B641005024E7 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7616C3A2A84DB21005024E7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7616C392A84DB21005024E7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B7616C3D2A84DBDC005024E7 /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7616C3C2A84DBDC005024E7 /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
+		};
+		B7616C402A84DC6C005024E7 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7616C3F2A84DC6C005024E7 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		B7616C472A84EA9C005024E7 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7616C462A84EA9C005024E7 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		B7616C612A85B641005024E7 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7616C602A85B641005024E7 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		B7616C632A85B641005024E7 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7616C602A85B641005024E7 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		B7616C652A85B641005024E7 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7616C602A85B641005024E7 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		B7616C672A85B641005024E7 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B7616C602A85B641005024E7 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B71F9A6929C0758A00FC94BC /* Project object */;
 }

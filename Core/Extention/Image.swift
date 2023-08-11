@@ -7,6 +7,15 @@
 
 import UIKit
 
+public extension UIImageView {
+    func circle(color: UIColor = .clear) {
+        layer.cornerRadius = frame.size.height * 0.5
+        clipsToBounds = true
+        layer.borderWidth = 2.0
+        layer.borderColor = color.cgColor
+    }
+}
+
 public extension UIImage {
     struct Asset {
         public static let avatar = UIImage(named: "avatar", in: ConfigBundle.core, compatibleWith: nil)!
@@ -35,5 +44,20 @@ public extension UIImage {
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return newImage!
+    }
+    
+    func imageFromColor(color: UIColor, width: CGFloat = 1.0, height: CGFloat = 1.0) -> UIImage? {
+        var image: UIImage?
+        let rect = CGRect(x: 0.0, y: 0.0, width: width, height: height)
+        UIGraphicsBeginImageContext(rect.size)
+        
+        if let context: CGContext = UIGraphicsGetCurrentContext() {
+            context.setFillColor(color.cgColor)
+            context.fill(rect)
+            image = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+        }
+        
+        return image
     }
 }
